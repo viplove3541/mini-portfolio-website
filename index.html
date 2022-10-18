@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="" type="image/x-icon">
+
+    <!--=============== REMIX ICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>portfolio website</title>
+</head>
+
+<body>
+    <!--=============== HEADER PROFILE ===============-->
+    <header class="profile container">
+        <!--Theme button-->
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+        <div class="profile__container grid">
+            <div class="profile__data">
+                <div class="profile__border">
+                    <div class="profile__prefill">
+                        <img src="assets/img/viplove_about.jpg" alt="">
+                    </div>
+                </div>
+                <h2 class="profile__name">Viplove Kale</h2>
+                <h2 class="profile__profession">Frontend Developer</h2>
+
+                <ul class="profile__social">
+                    <a href="https://www.instagram.com/viplove_18/" target="_blank" class="profile__social-link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/viplove-kale-42032283/" target="_blank"
+                        class="profile__social-link">
+                        <i class="ri-linkedin-box-fill"></i>
+                    </a>
+                    <a href="https://github.com/viplove3541" target="_blank" class="profile__social-link">
+                        <i class="ri-github-fill"></i>
+                    </a>
+                </ul>
+            </div>
+            <div class="about">
+                <div class="about-info">
+                    <h3 class="about-me">About Me</h3>
+                    <p class="about__description">
+                        Web developer, with strong knowledge in design and integration with intuitive
+                        problem-solving skills. Proficient in HTML5,CSS3,Bootstrap,JavaScript and
+                        React.js. Passionate about implementing and launching new projects. Ability to
+                        translate business requirements into technical solutions
+                    </p>
+                </div>
+            </div>
+            <div class="profile__info grid">
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">+4</h3>
+                    <p class="profile__info-description">Completed <br>Projects</p>
+                </div>
+            </div>
+            <div class="profile__button">
+                <a download="" href="assets/pdf/viplove-resume.pdf" class="button">Download CV
+                    <i class="ri-file-download-fill"></i>
+                </a>
+                <div class="profile__buttons-small">
+                    <a href="https://api.whatsapp.com/send?phone=+919096390727&text=Hello, more information!"
+                        target="_blank" class="button button__small button__gray">
+                        <i class="ri-whatsapp-line"></i>
+                    </a>
+                    <a href="mailto:viplovekale@gmail.com?" subject="subject text" target="_blank"
+                        class="button button__small button__gray">
+
+                        <i class="ri-mail-line"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <section class="filters container">
+            <!--=============== FILTERS TABS ===============-->
+            <ul class="filters__content">
+                <button class="filter__button filter-tab-active" data-target="#projects">
+                    Projects
+                </button>
+                <button class="filter__button" data-target="#skills">
+                    Skills
+                </button>
+            </ul>
+            <div class="filters__sections">
+                <!--=============== PROJECTS ===============-->
+                <div class="projects__content grid filters__active" data-content id=" projects">
+                    <article class="projects__cards">
+                        <img src="assets/img/project1.jpg" alt="" class="projects__img">
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Game</span>
+                                <h3 class="projects__title">Tic Tac Toe</h3>
+                                <a href="https://viplove3541.github.io/tic-tac-toe/" target="_blank"
+                                    class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__cards">
+                        <img src="assets/img/project1.jpg" alt="" class="projects__img">
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Utility</span>
+                                <h3 class="projects__title">Weather App</h3>
+                                <a href="https://viplove3541.github.io/weather-app.io/" target="_blank"
+                                    class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__cards">
+                        <img src="assets/img/project1.jpg" alt="" class="projects__img">
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Utility</span>
+                                <h3 class="projects__title">CSS Background Generator</h3>
+                                <a href="https://viplove3541.github.io/Background-color-generator-/" target="_blank"
+                                    class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__cards">
+                        <img src="assets/img/project1.jpg" alt="" class="projects__img">
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Utility</span>
+                                <h3 class="projects__title">Calculator</h3>
+                                <a href="https://viplove3541.github.io/simple-calculator/" target="_blank"
+                                    class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!--=============== SKILLS ===============-->
+                <div class="skills__content grid " data-content id="skills">
+                    <div class="skills__area">
+                        <h3 class="skills__title">
+                            Frontend Developer
+                        </h3>
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">HTML5</h3>
+                                        <span class="skills__level">Basics</span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">JavaScript</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Bootstrap</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">CSS3</h3>
+                                        <span class="skills__level">Advanced</span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">ReactJs</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Git</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__area">
+                        <h3 class="skills__title">
+                            Backend Developer
+                        </h3>
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">NodeJs</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">MongoDB</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">SQL</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">ExpressJs</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">JAVA</h3>
+                                        <span class="skills__level">Basics</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer container">
+        <span class="footer__copy">
+            &#169; Viplove_18 All rights reserved
+        </span>
+    </footer>
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
